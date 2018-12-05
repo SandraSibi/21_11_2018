@@ -5,7 +5,7 @@
  */
 package Test;
 
-import MODEL_HR.Departements;
+import model_HR.Department;
 
 /**
  *
@@ -13,13 +13,13 @@ import MODEL_HR.Departements;
  */
 public class TestDepartments {
     public static void main(String[] args) {
-        Departements dept = new Departements(10,"Administration");
+        Department dept = new Department(10,"Administration");
         dept.readEmployees();
         for (int i = 0; i < dept.getListEmployees().size(); i++) {
             System.out.println(dept.getListEmployees().get(i).toString());
         }
         
-        Departements dept1 = new Departements(20,"Marketing");
+        Department dept1 = new Department(20,"Marketing");
         dept1.readEmployees();
         for (int i = 0; i < dept1.getListEmployees().size(); i++) {
             System.out.println(dept1.getListEmployees().get(i).toString());

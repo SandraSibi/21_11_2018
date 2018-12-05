@@ -5,7 +5,7 @@
  */
 package Test;
 
-import MODEL_HR.World;
+import model_HR.World;
 /**
  *
  * @author admin
